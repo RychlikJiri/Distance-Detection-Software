@@ -1,0 +1,19 @@
+Lidar - Vyšle laserové světlo, změří čas než se vrátí a podle toho určí vzdálenost, velmi přesná, pomocí milionu bodu vytváří 3d mapu, funguje ve tmě, počasí může ovlivnit přesnost měřenín, některé materiály mohou špatně odrážet světlo, 
+Stereoskopie/více kamer - OAK-D, udělá dvě fotky ze dvou kamer, podle změny lokace objektu ve fotkách určí vzdálenost objektu, komplikace ve tmě?
+Použití jedné kamery - neuralni sit na hloubkove mape, levne, nejmene presne, otřesné pro měření na krátkou vzdálenost, perspektiva, (zaostření kamery k určení vzdálenosti objektu!!!!), motion parallax?
+
+https://en.wikipedia.org/wiki/Depth_perception 
+monocular cues
+
+
+kamera se pomalu zaostřuje více a více a postupně jsme schopni určit vzdálenost jednotlivých části fotografie
+
+local blur detection
+Variance of Laplacian 
+This technique detects blurriness by checking how much the image changes at each pixel (sharp images change more abruptly).
+fft????
+scikit-image's structure_tensor or sobel filters
+
+google collab/unsloth na trenování neuronek
+segment antyhing - neuralní sít pro přesnou detekci objektu
+optika
