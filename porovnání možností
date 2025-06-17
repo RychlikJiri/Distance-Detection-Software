@@ -8,6 +8,8 @@ monocular cues
 
 kamera se pomalu zaostřuje více a více a postupně jsme schopni určit vzdálenost jednotlivých části fotografie
 
+pro určení ostrých částí obrázku potřebujeme detekovat jaká čast je ostrá, na to použijeme:
+
 local blur detection
 Variance of Laplacian 
 This technique detects blurriness by checking how much the image changes at each pixel (sharp images change more abruptly).
